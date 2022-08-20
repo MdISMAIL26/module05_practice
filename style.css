@@ -1,4 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:ital,wght@1,500&family=Roboto+Mono:ital,wght@1,300&display=swap");
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "DynaPuff", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+section {
+  height: 600px;
+}
+
+#top-banner {
+  background-image: url("/module05_practice/images/header-bg.png");
+}
+
+#mid-banner {
+  background-image: url("/module05_practice/images/biography-bg.png");
+}
+
+.link-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(orange, rgb(158, 51, 51));
+  border-radius: 5px;
+}
+
+.past-work img {
+  width: 25%;
+  padding-right: 7%;
+}
+#Experience {
+  height: 500px;
+  background-image: url("/module05_practice/images/latest-work-bg.png");
+}
+
+.color-box {
+  width: 40%;
+  background-color: orange;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
